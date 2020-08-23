@@ -1,0 +1,118 @@
+@import "../../sass/variables.scss";
+
+.Message {
+
+    width: 60%;
+    height: 150vh;
+
+    &__container {
+        padding: 5rem;
+        margin-top: 5rem;
+    }
+
+    &__nav {
+        padding: 1.5rem;
+        border: 0.2rem solid $transparent-grey;
+        border-radius: 0.5rem;
+        background-color: $light-blue;
+        margin-bottom: 1rem;
+    }
+
+    &__title-and-date-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 2.25rem;
+    }
+
+    &__date {
+        font-size: 1.25rem;
+    }
+
+    &__btn {
+        padding: 0.75rem 2rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+        border:none;
+        font-size: 1.25rem;
+        border-radius: 10rem;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+
+        &:focus {
+            outline: none;
+        }
+
+        &--red {
+            background-color: $tomato-red-transparent;
+        }
+
+        &--green {
+            background-color: $green-transparent;
+        }
+
+        &--yellow {
+            background-color: $yellow-transparent;
+        }
+    }
+
+    &__message-read-container {
+        height: 45%;
+        overflow-y: auto;
+        border: .1rem solid $transparent-grey;
+        padding: 2rem
+    }
+
+    &__message-write-container {
+        height: 50%;
+    }
+
+    &__message-container {
+        border: 0.2rem solid $transparent-grey;
+        height: 65rem;
+        background-color: $off-white-transparent;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__from-email {
+        font-size: 1.5rem;
+        color: $dark-grey
+    }
+
+    &__line {
+        font-size: 1.5rem;
+    }
+
+    &__form {
+        padding: 2rem 0rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__textarea {
+        width: 100%;
+        height: 75%;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    &__submit {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,57 @@
+@import "../../sass/variables.scss";
+
+.Team {
+
+    padding-bottom: 0rem;
+    text-align: center;
+
+    &__container {
+        width: 87.5%;
+        margin: 0 auto;
+        
+    }
+
+    &__nav-container {
+        margin: 0 auto;
+        margin-top: 10rem;
+        width: 75%;
+    }
+
+    &__nav-tab {
+        list-style: none;
+        font-size: 2rem;
+        color: $primary;
+        font-weight: 700;
+        cursor: pointer;
+        margin-right: 4rem;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 4rem;
+        font-family: 'Nunito Sans';
+        color: $primary;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.4rem;
+        margin-top: 10rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $dark-grey;
+        
+        width: 65%;
+        line-height: 3rem;
+        margin: 2rem auto;
+        
+    }
+
+    &__person-cards-container {
+        margin-top: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+}

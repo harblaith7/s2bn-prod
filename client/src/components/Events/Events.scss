@@ -1,0 +1,62 @@
+@import "../../sass/variables.scss";
+
+.Events {
+
+    background-color: $primary-purple;
+    padding: 7.5rem 0;
+
+    &__container {
+        width: 45%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    &__slide-nav-background {
+        background-color: rgba(72, 43, 85, 0.233);
+        height: 2rem;
+        width: 20rem;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 97%;
+        left: 50%;
+        border-radius: 0.3rem;
+    }
+
+    &__slide-container {
+        height: 10rem;
+        width: 100%;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 4.5rem;
+        margin: 2rem 0;
+        font-family: 'Nunito Sans';
+        color: $primary;
+        letter-spacing: 0.2rem;
+        word-spacing: 0.4rem;
+        text-align: center;
+    }
+
+    &__slide-container {
+        width: 50%;
+    }
+
+    &__line {
+        height: 0.35rem; 
+        width: 15rem;
+        background-color: $primary-light;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        border-radius: 100rem;
+    }
+
+    &__event-card-container {
+        margin: 0 auto;
+        margin-top: 10rem;
+        width: 70rem;
+    }
+
+   
+
+}

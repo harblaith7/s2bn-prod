@@ -25,6 +25,8 @@ if (process.env.NODE_ENV === "production"){
     })
 }
 
+// unnecessary comment
+
 db.initDb((err, db) => {
     if(err) console.log(err)
     else {

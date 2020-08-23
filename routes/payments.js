@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const Stripe = require('stripe')
-const keys = require('../config/dev')
-const dev = require('../config/dev')
+const keys = require('../config/keys')
+const dev = require('../config/keys')
 const db = require('../database/db')
 const {ObjectID} = require('mongodb')
 

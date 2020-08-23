@@ -3,11 +3,6 @@ const app = express()
 const db = require('./database/db')
 const cors = require('cors')
 
-
-app.get('/', async (req, res) => {
-    res.send('Bye')
-})
-
 // MIDDLEWARE
 app.use(express.json())
 app.use(cors())

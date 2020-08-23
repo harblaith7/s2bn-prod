@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer')
-const keys = require('../../config/dev')
+const keys = require('../../config/keys')
 
 let browser, page;
 jest.setTimeout(300000)

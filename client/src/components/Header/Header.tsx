@@ -9,8 +9,8 @@ export default class Header extends Component {
         <div className='Header__container'>
           <div className='Header__text-container'>
             <h1 className='Header__text'>
-              We don't students gain a competitive edge in both school and
-              business
+              We do and don't students gain a competitive edge in both school
+              and business
             </h1>
             <div className='Header__btn-container'>
               <button className='Header__about-btn Header__about-btn--purple'>
